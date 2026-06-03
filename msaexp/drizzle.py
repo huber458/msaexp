@@ -1088,7 +1088,7 @@ def make_optimal_extraction(
     from scipy.optimize import least_squares
 
     from .version import __version__ as msaexp_version
-
+    print('testing edits here')
     sh = wht2d.shape
     yp, xp = np.indices(sh)
 
